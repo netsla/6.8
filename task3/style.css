@@ -1,0 +1,43 @@
+  :root {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    padding: 1 rem;
+  }
+
+header {
+    display: flex;
+    margin: 0;
+    padding: 1 rem;
+    justify-content: center;
+    background-color: rgba(37, 242, 34, 0.5);
+}
+
+h1 {
+    color: #d15812;
+    font-size: 4rem;
+}
+
+#trafficLight {
+  display:flex;
+  flex-direction: column;
+  margin: 5rem;
+  padding: 5rem;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: black;
+}
+
+footer {
+    margin-top: 300px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: grey;
+}
+footer a {
+    text-decoration: none;
+    color: inherit
+}

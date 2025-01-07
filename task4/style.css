@@ -1,0 +1,45 @@
+:root {
+    font-family: sans-serif;
+}
+body {
+    display: block;
+    justify-content: center;
+    margin: 0;
+    padding: 1 rem;
+    font-size: 3rem;
+
+}
+
+body a {
+    text-align: center;
+    color: rgb(16, 4, 4);
+    text-decoration: none;
+    color: inherit
+}
+
+header {
+    display: flex;
+    margin: 0;
+    padding: 1 rem;
+    justify-content: center;
+    background-color: rgba(37, 242, 34, 0.5);
+}
+
+h1 {
+    color: #d15812;
+    font-size: 4rem;
+    }
+
+
+footer {
+    margin-top: 300px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: grey;
+    font-size: 1rem;
+}
+footer a {
+    text-decoration: none;
+    color: inherit
+}
